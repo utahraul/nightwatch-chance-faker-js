@@ -1,0 +1,10 @@
+{
+  "name": "nightwatch-chance-faker",
+  "description": "Example using Nightwatch.js combined with Chance.js and/or Faker.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "chance": "^1.0.18",
+    "faker": "^4.1.0",
+    "nightwatch": "0.9.21"
+  }
+}
