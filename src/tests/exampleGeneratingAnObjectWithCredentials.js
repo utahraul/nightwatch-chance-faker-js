@@ -1,6 +1,6 @@
 var utils = require('../utils/utils.js');
 module.exports = {
-    'Chancejs demo test' : function (client) {
+    'Example generating and object with credentials' : function (client) {
       const random_user = utils.generate_random_private_credentials();
       client
         .url('http://www.google.com')

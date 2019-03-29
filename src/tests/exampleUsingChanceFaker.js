@@ -1,7 +1,7 @@
 var utils = require('../utils/utils.js');
 module.exports = {
-    'Chancejs demo test' : function (client) {
-      const nameToSearch = utils.generate_random_name();
+    'Example using Faker.js' : function (client) {
+      const nameToSearch = utils.generate_random_name('faker');
       client
         .url('http://www.google.com')
         .waitForElementVisible('body', 2000)
