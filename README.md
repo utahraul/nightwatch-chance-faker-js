@@ -15,7 +15,6 @@ Para ejecutar los ejemplos hay que ejecutar el comando 'nightwatch'. Comenzarán
 Starting selenium server... started - PID:  18216
 
 [Example Generating An Object With Credentials] Test Suite
-==============================================================
 
 Running:  Example generating and object with credentials
  √ Element <body> was visible after 69 milliseconds.
@@ -29,7 +28,6 @@ Running:  Example generating and object with credentials
 OK. 6 assertions passed. (5.962s)
 
 [Example Using Chance] Test Suite
-=====================================
 
 Running:  Example using Chance.js
  √ Element <body> was visible after 62 milliseconds.
@@ -43,7 +41,6 @@ Running:  Example using Chance.js
 OK. 6 assertions passed. (5.685s)
 
 [Example Using Faker] Test Suite
-====================================
 
 Running:  Example using Faker.js
  √ Element <body> was visible after 60 milliseconds.
