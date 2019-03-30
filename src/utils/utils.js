@@ -1,10 +1,9 @@
-// Load Chance
-var Chance = require('chance');
-// Instantiate Chance so it can be used
-var chance = new Chance();
+// Load Chance and instantiate Chance so it can be used
+const Chance = require('chance');
+const chance = new Chance();
 
 // Load Faker
-var faker = require('faker/locale/es');
+const faker = require('faker/locale/es');
 
 function generate_random_name(option) {
     let random_name
