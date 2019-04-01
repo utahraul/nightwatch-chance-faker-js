@@ -7,10 +7,10 @@ module.exports = {
         .waitForElementVisible('body', 2000)
         .assert.title('Google')
         .assert.visible('input[type=text]')
-        .setValue('input[type=text]', `${random_user.name}`)
+        .setValue('input[type=text]', `${random_user.name} `)
         .pause(1000)
-        .waitForElementVisible('input[value="Buscar con Google"]', 5000)
-        .click('input[value="Buscar con Google"]')
+        .waitForElementVisible('input[name="btnK"]', 2000)
+        .click('input[name="btnK"]')
         .waitForElementVisible('#search', 2000)
         .assert.containsText('#search', random_user.name)
         .end();

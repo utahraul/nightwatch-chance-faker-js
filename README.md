@@ -8,7 +8,7 @@ PreRequisitos:
 
 Una vez descargado el proyecto, desde línea de comandos (o terminal) ejecutar `npm install` para instalar Nightwatch.js y las dependencias del proyecto (Chromedriver, Chance.js y Faker.js).
 
-Para ejecutar los ejemplos hay que ejecutar el comando `nightwatch` desde la línea de comandos (o terminal). Comenzarán a ejecutarse los tests en Chrome y en el terminal el resultado será algo así:
+Para ejecutar los ejemplos hay que ejecutar el comando `node_modules/nightwatch/bin/nightwatch` desde la línea de comandos (o terminal). Comenzarán a ejecutarse los tests en Chrome y en el terminal el resultado será algo así:
 
 ```
 Starting selenium server... started - PID:  18216
